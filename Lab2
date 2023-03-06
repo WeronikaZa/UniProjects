@@ -1,0 +1,124 @@
+'''#program Hasło
+haslo = input("Podaj hasło: ")
+if haslo == "secret": 
+  print("Witaj w prywatnej sieci.")
+elif haslo == "public": 
+  print("Witaj w publicznej sieci.")
+else:
+  print("Nie masz dostępu do sieci.")
+
+#Napisz kalkulator
+dzialanie = input()
+dzialanie = dzialanie.lower()
+a = int(input())
+b = int(input())
+if dzialanie == "dodaj":
+    print(a, "+", b, "=", a+b, sep="")
+elif dzialanie == "odejmij":
+    print(a, "-", b, "=", a-b, sep="")
+elif dzialanie == "dziel":
+    print(a, "/", b, "=", int(a/b), sep="")
+elif dzialanie == "mnóż":
+    print(a, "*", b, "=", a*b, sep="")
+elif dzialanie == "potęguj":
+  print(a, "**", b, "=", a**b, sep="")
+elif dzialanie == "modulo":
+  print(a, "%", b, "=", a%b, sep="")
+
+#program Symulator trzylatka
+print("\tWitaj w symulatorze trzylatka")
+print("Ten program symuluje rozmowę z trzyletnim dzieckiem.")
+print("Spróbuj zatrzymać to szaleństwo!")
+response = ""
+while response != "dlatego!":
+  response = input("Dlaczego? ")
+  response = response.lower()
+print ("Aha już wiem")
+
+#Obliczanie prądu płynącego w obwodzie
+u = int(input())
+r = int(input())
+print("Podane napięcie:", u)
+print("Podana rezystancja:", r)
+i = u/r
+print("Prąd w układzie:", round(i,2))'''
+
+#NAPISZ PROGRAM IMPLEMENTUJĄCY GRĘ W MINILOTTO: UŻYTKOWNIK WYBIERA 3 liczby a program losuje 6 liczb, następnie program sprawdza wygraną i podaje uzytkownikowi ilość trafień. Zakres liczb 0-9.
+import random
+
+print("\tMINILOTTO")
+u1 = int(input("Podaj pierwszą liczbę: "))
+u2 = int(input("Podaj drugą liczbę: "))
+u3 = int(input("Podaj trzecią liczbę: "))
+l1 = random.randint(0, 9)  #liczby wylosowane przez lotto
+l2 = random.randint(0, 9)
+l3 = random.randint(0, 9)
+l4 = random.randint(0, 9)
+l5 = random.randint(0, 9)
+l6 = random.randint(0, 9)
+#print(l1,l2,l3,l4,l5,l6)
+n = 0  
+if u1 == l1:  #szukanie czy pokryła się pierwsza liczba
+  #print("u1=l1")
+  n += 1
+elif u1 == l2:
+  #print("u1=l2")
+  n += 1
+elif u1 == l3:
+  #print("u1=l3")
+  n += 1
+elif u1 == l4:
+  #print("u1=l4")
+  n += 1
+elif u1 == l5:
+  #print("u1=l5")
+  n += 1
+elif u1 == l6:
+  #print("u1=l6")
+  n += 1
+#else:
+  #print("Brak trafień dla pierwszej liczby.")
+if u2 == l1:  #szukanie czy pokryła się druga liczba
+  #print("u2=l1")
+  n += 1
+elif u2 == l2:
+  #print("u2=l2")
+  n += 1
+elif u2 == l3:
+  #print("u2=l3")
+  n += 1
+elif u2 == l4:
+  #print("u2=l4")
+  n += 1
+elif u2 == l5:
+  #print("u2=l5")
+  n += 1
+elif u2 == l6:
+  #print("u2=l6")
+  n += 1
+#else:
+  #print("Brak trafień dla drugiej liczby")
+if u3 == l1:  #szukanie czy pokryła się trzecia liczba
+  #print("u3=l1")
+  n += 1
+elif u3 == l2:
+  #print("u3=l2")
+  n += 1
+elif u3 == l3:
+  #print("u3=l3")
+  n += 1
+elif u3 == l4:
+  #print("u3=l4")
+  n += 1
+elif u3 == l5:
+  #print("u3=l5")
+  n += 1
+elif u3 == l6:
+  #print("u3=l6")
+  n += 1
+#else:
+ # print("Brak trafień dla trzeciej liczby")
+if n == 0:
+  print ("GAME OVER")
+else:
+  print("Udało ci się trafić", n, "liczbę/y.")'''
