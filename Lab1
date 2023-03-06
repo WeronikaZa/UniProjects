@@ -1,0 +1,53 @@
+'''print("Cześć")
+print('Cześć')
+print('Moją ulubioną książką jest "Władca Pierścieni".')
+print("Program, który policzy ile masz dni")
+age=input("Podaj ile masz lat ")
+age=int(age)
+print("Masz ",age*365," dni.")
+print("Game Over")
+print('Game Over')
+print(""" WWWWW
+ AAAA
+ BBBB """)
+# Zabawne podziękowania
+# Demonstruje sekwencje specjalne
+print("\t\t\tZabawne podziękowania")
+print("\t\t\t \\ \\ \\ \\ \\ \\ \\ \\ \\ \\")
+print("\t\t\t napisał")
+print("\t\t\t Autor Gry")
+print("\t\t\t \\ \\ \\ \\ \\ \\ \\")
+print("\nSpecjalne podziękowania należą się:")
+print("mojemu kotu,", end=" ")
+print("Puszkowi, który zawsze przychodził na wezwanie.","Rodzinie, za pilnowanie :P")
+# dzwonek systemowy
+print("\a")
+input("\n\nAby zakończyć program, naciśnij klawisz Enter.")
+#To jest komentarz jednolinijkowy
+"""To jest komentarz
+wielolinijkowy"""
+#Zwariowane łańcuchy
+print("Jeśli bardzo lubisz programować w pythonie")
+print("To wyraź to")
+print("Python Rulez !!!")
+print("To teraz jeszcze 10 razy")
+print("Python Rulez !!!" * 10)
+#Program witający użytkownika
+name = input("Podaj swoję imię ") #po raz pierwszy pojawia się zmienna, do której przypiszemy informację pobraną od użytkownika
+print("Cześć", name) #wypisanie łańcucha znaków oraz zawartości zmiennej name
+#prosty kalkulator
+number1 = 5
+number2 = 6
+sum = number1 + number2
+difference = number1 - number2
+product = number1 * number2
+quotient = number1 / number2
+print("Suma liczb", number1,"i",number2,"wynosi",sum)
+print("Różnica liczb", number1,"i",number2,"wynosi",difference)
+print("Iloczyn liczb", number1,"i",number2,"wynosi",product)
+print("Iloraz liczb", number1,"i",number2,"wynosi",quotient)
+import random
+diceK6 = random.randint(1, 6) #losujemy liczbę z zakresu od 1-6
+diceK61 = random.randint(1, 6)
+diceK62 = random.randint(1, 6)
+print("Wyrzuciłeś ", diceK6,", ", diceK61, " i ", diceK62, " na kościach.")'''
