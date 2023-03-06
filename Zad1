@@ -1,0 +1,26 @@
+'''#Program liczący BMI
+waga=input("Podaj swoją wagę w kilogramach: ")
+wzrost=input("Podaj swój wzrost w metrach: ")
+waga=float(waga)
+wzrost=float(wzrost)
+BMI=(waga/wzrost**2)
+print("Twoje BMI: ",BMI)
+#Program liczący ile masz dni
+age=input("Podaj ile masz lat: ")
+age=int(age)
+print("Masz ",age*365," dni.")
+
+#zadanie do wysłania BMI
+waga=input()
+wzrost=input()
+waga=float(waga)
+wzrost=float(wzrost)
+BMI=(waga/(wzrost/100)**2)
+print("Twoja waga: ", int(waga))
+print("Twoj wzrost: ", wzrost)
+print("Twoje BMI: ", round(BMI,2))
+#zamiana km/h na m/s
+km=input()
+km=float(km)
+m=km/3.6
+print(round(m,2))'''
